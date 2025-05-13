@@ -1,0 +1,29 @@
+name: hitSongPrediction
+channels:
+  - conda-forge
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - pip
+  - python=3.11
+  - scikit-learn
+  - matplotlib
+  - pandas
+  - numpy
+  - h5py      
+  - nltk
+  - textblob 
+  - imbalanced-learn          
+  - pytables    
+  - seaborn          
+  - fastparquet
+  - huggingface_hub
+  - jupyter
+  - ipywidgets
+  - pre-commit
+  - transformers
+  - datasets
+  - pytorch
+  - python-decouple
+  - pip:
+    - ibm-watsonx-ai==1.2.9
